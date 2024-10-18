@@ -141,83 +141,66 @@ function Home() {
           <h2>Explore Our Product Categories</h2>
         </div>
         <div className="elements">
-          <div className="row">
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-tv d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Electronics</p>
-                  <span className={`${styles.contentSpan}`}>1500</span>
-                </div>
+          <div
+            className={`${styles.cards_container} col-12 d-flex flex-wrap mx-auto gap-1 gap-lg-1 justify-content-center`}
+          >
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-tv col-3 m-auto"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Electronics</h5>
+                <p>1500</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-shirt d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Fashion</p>
-                  <span className={`${styles.contentSpan}`}>1200</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-shirt my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Fashion</h5>
+                <p>980</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-couch d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Home & Kitchen</p>
-                  <span className={`${styles.contentSpan}`}>800</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-couch my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Home & Kitchen</h5>
+                <p>640</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-heart-pulse d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Beauty & Health</p>
-                  <span className={`${styles.contentSpan}`}>600</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-heart my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Beauty & Health</h5>
+                <p>750</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-gamepad d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Toys & Games</p>
-                  <span className={`${styles.contentSpan}`}>400</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-football my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Sports & Outdoor</h5>
+                <p>340</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-football d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Sports & Outdoors</p>
-                  <span className={`${styles.contentSpan}`}>500</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-gamepad my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Toys & Games</h5>
+                <p>450</p>
               </div>
             </div>
           </div>
