@@ -1,0 +1,215 @@
+.contactDet{
+    height: fit-content;
+    background:linear-gradient(#760D06,#D43C21);
+    color: white;
+}
+.leftPt p:nth-child(1){
+    font : 500 16px/24px Roboto;
+    text-align: start ;
+    width: 60%;
+    opacity: 0.6;
+}
+.leftPt p{
+    text-align: start ;
+    width: 60%;
+}
+.leftPt h2{
+    font: 500 48px/58px Montserrat;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.leftPt p:nth-child(3),.leftPt p:nth-child(4){
+    font-family: Roboto;
+    margin: 1px;
+}
+.leftPt p:nth-child(4),.rightPt p:nth-child(1){
+    opacity: 0.6;
+}
+.rightPt p:nth-child(1){
+    font: 500 12px/16px Roboto;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    padding-left: 2PX;
+}
+.rightPt .email{
+    margin: 0px;
+}
+.links li{
+    list-style: none;
+    font-family: Roboto;
+}
+iframe{
+    filter: grayscale(1) contrast(1.2);
+    opacity: 0.4;
+    width: 100%;
+    border: none;
+    height: 400px;
+}
+.loaction{
+    position: relative;
+}
+.frameCard{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background-color: #f8f8f8;
+    padding-block: 40px;
+    box-shadow: 0 1px 0 #aaaaaa5c;
+}
+.frameCard h4{
+    font: 600 30px/36px Montserrat;
+    margin-bottom: 5px;
+}
+.frameCard p:nth-child(2){
+    font-family: Roboto;
+}
+.frameCard p:nth-child(3){
+    color: #D43C21;
+}
+.frameCard p:nth-child(3) i{
+    margin-right: 10px;
+}
+.overallFaq h3{
+    font: 500 36px/40px Montserrat;
+    width: 60%;
+    padding-bottom: 30px;
+    border-bottom:1px solid #c5bfbf7d;
+    color: #a05446;
+}
+.overallFaq{
+    background-color: #FFF0E8;
+}
+.overallFaq div{
+    padding-bottom:15px;
+    margin: 10px;
+    width: 60%;
+    border-bottom:1px solid #c5bfbf7d;
+}
+.overallFaq div:last-child{
+    border: none;
+}
+.overallFaq div p:nth-child(1){
+    font: 600 18px/28px Roboto;
+    display: flex;
+    justify-content: space-between;
+}
+.overallFaq div p:nth-child(1) i{
+    padding-top: 5px;
+}
+.overallFaq div p:nth-child(2){
+    font: 400 16px/28px Roboto;
+    display: none;
+}
+.team h2{
+    font: 700 36px/40px Montserrat;
+    text-align: center;
+}
+.team p:nth-child(2){
+    font: 400 18px/32px Roboto;
+    color: #888686;
+    text-align: center;
+}
+.member img{
+    width: 100%;
+    border-radius: 10px;
+}
+.member p:nth-child(2){
+    font: 600 20px/32px Roboto;
+    text-align: left;
+    color: black;
+    margin: 10px 2px 2px 2px;
+}
+.member p:nth-child(3),.member p:nth-child(4){
+    font: 400 16px/28px Roboto;
+    color: #484646;
+}
+.memberMedia i{
+    color: #888686;
+    font-size: 18px;
+}
+.team p{
+    padding-left: 10px;
+}
+.community h2{
+    font: 600 48px/48px Montserrat ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.community > p:nth-child(2){
+    font-family: Roboto;
+    color: #888686;
+    text-align: center;
+}
+.feature{
+    border: 1px solid #EEE;
+    margin-inline: 15px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    transition: all 0.3s ease;
+}
+.feature:hover{
+    transform: translateY(-10px);
+}
+.community i{
+    padding-top: 25px;
+    color: #FF7C57;
+    font-size: 20px;
+    margin-inline:15px;
+}
+.featureDet{
+    padding-top: 20px;
+}
+.community button{
+    /* padding-inline: 10px !important; */
+    background-color: #FF5733;
+    color: white;
+    font-size: 15px;
+}
+.community button i{
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.review img{
+    width: 35%;
+    border-radius: 15px;
+}
+.reviewDet p:nth-child(1){
+    margin-bottom: 45px;
+    font: 400 24px/32px Roboto;
+}
+.reviewDet p:nth-child(2){
+    font: 600 20px/28px Roboto;
+}
+@media screen and (max-width:576px) {
+    .list li{
+        text-align: center !important;
+    }
+    .member{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .member p:nth-child(2),.memberMedia{
+        text-align: center;
+        margin-inline: auto;
+    }
+    iframe{
+        height:600px;
+    }
+    .frameCard{
+        width: 90%;
+    }
+    .feature{
+        margin-block: 20px;
+    }
+    .review img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+}
+

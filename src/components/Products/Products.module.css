@@ -1,0 +1,164 @@
+.header{
+    text-align: center;
+}
+.header p:nth-child(1), .categories p:nth-child(1) {
+    font: 500 36px/40px Montserrat;
+    text-align: center;
+    margin: 10px;
+}
+.header p:nth-child(2){
+    font: 400 16px/24px Roboto;
+}
+.slider {
+    width: 100%;
+    white-space: nowrap; 
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider .img_container{
+    flex: 0 0 250px;
+    display: inline-block;
+    margin: 20px;
+    scroll-snap-align: center;
+}  
+.img_container p{
+    margin-block: 10px;
+}
+.img_container img{
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+.cat_card{
+    background-color: #FFD7C4;
+    transition: all 0.5s ease;
+}
+.cat_card i{
+    font-size: 20px;
+    color: #DB3F23;
+    padding-left: calc(((100% / 3) - 70px )/2);
+    position: relative;
+}
+.cat_card i::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 1px;
+    background-color: #4d494927;
+    right: 10px;
+    top: calc((100% - 50px)/2);
+}
+.cat_card:hover{
+    background-color: #FFBBA0;
+}
+.cat_card h5{
+    font: 600 18px/28px Roboto;
+}
+.cat_card p{
+    font: 400 16px/24px Roboto;
+    color: #726d6d;
+}
+.top_products{
+    background-color: #FFF0E8;
+    text-align: center;
+}
+.top_products p:nth-child(1){
+    font: 500 18px/28px Roboto;
+}
+.top_products h4:nth-child(2){
+    font: 500 48px/48px Montserrat;
+}
+.products_info img{
+    width: 100%;
+    border-radius: 10px;
+}
+.products_info h6{
+    font: 500 24px/32px Roboto;
+}
+.products_info p{
+    font: 400 15px/28px Roboto;
+    color: #7d7474ef;
+}
+.products_info div p:last-child{
+    margin: 10px auto;
+}
+.credits p i{
+    color: #FF7C57;
+}
+.offer h2:nth-child(1){
+    font: 800 48px/48px Montserrat;
+}
+.offer h2+ p:nth-child(2){
+    color: #7d7474ef;
+    text-align: center;
+}
+.credits p{
+    font: 400 18px/28px Roboto;
+}
+.offer_image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn1{
+    background-color: #FF5733 !important;
+    color: white !important;
+    padding: 10px !important;
+    transition: all .5s ease !important;
+}
+.btn1:hover{
+    background-color: #FF7C57 !important;
+}
+.btn2{
+    background-color: white !important;
+    padding: 10px !important;
+    transition: all .5s ease !important;
+}
+.btn2:hover{
+    background-color: #FFD7C4 !important;
+}
+.commentImg{
+    width: 40px;
+}
+.comment{
+    border-bottom: 1px solid #eee;
+}
+.stars i{
+    color: #FF5733;
+    margin-bottom: 25px;
+}
+.commentDet p{
+    font-family: Roboto;
+}
+.author{
+    font: 700 14px/20px Roboto;
+    margin-top: 20px;
+}
+.commentDate{
+    font: 400 14px/20px Roboto;
+    margin-block: 10px;
+    color: #1b0a0a83;
+}
+.questionCard{
+    border: 1px solid #d5d3d39d;
+    transition: all 0.3s ease;
+}
+.questionCard:hover{
+    box-shadow: 0px 6px 6px 2px beige;
+    transform: translateY(-3px);
+}
+.questionCard h6{
+    margin-bottom: 15px;
+    font: 600 22px/28px Roboto;
+}
+.questionCard p{
+    font-family: Roboto;
+}
+.questionsHead h2{
+    font: 500 48px/48px Montserrat;
+    margin-bottom: 20px;
+}
+.faq{
+    color: #FF5733;
+    font: 600 14px/21px Roboto;
+    letter-spacing: 2px;
+}

@@ -7,6 +7,10 @@ import Products from "./components/Products/Products";
 import Contact from "./components/Contact/Contact";
 import Profile from "./components/Profile/Profile";
 import NotFound from "./components/NotFound/NotFound";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function App() {
   let routers = createBrowserRouter([
@@ -14,7 +18,7 @@ function App() {
       path: "",
       element: <Layout />,
       children: [
-        { index: true, element: <Home /> },
+        { index: true, element: <Contact /> },
         { path: "login", element: <Login /> },
         { path: "register", element: <Register /> },
         { path: "home", element: <Home /> },
