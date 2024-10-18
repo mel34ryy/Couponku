@@ -1,1 +1,359 @@
-.Home {}
+.header {
+  font-size: 60px;
+}
+
+.paragraph {
+  color: #475569;
+  font-size: 18px;
+  max-width: 500px;
+}
+
+.icons {
+  color: #700a04;
+  font-size: 20px;
+}
+
+.liP {
+  color: #0f172a;
+  font-size: 20px;
+}
+
+.buttonShop {
+  background-color: #ff5733 !important;
+  color: #fff !important;
+  padding: 15px 32px !important;
+  font-weight: 600 !important;
+  border-radius: 30px !important;
+}
+
+.buttonShop:hover {
+  background-color: #db3f23 !important;
+}
+
+.icon {
+  margin-left: 8px;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.buttonShop:hover .icon {
+  transform: translateX(4px);
+}
+
+.owlStageOuter {
+  mask-image: linear-gradient(to left, transparent 1%, black, transparent 99%);
+}
+
+.buttonLearn {
+  padding: 15px 32px !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  border: 2px solid #700a04 !important;
+}
+
+.buttonLearn:hover {
+  background-color: #700a04 !important;
+  color: #fff !important;
+}
+
+.imageDiv {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image {
+  border-radius: 12px;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.imageDiv:hover .image {
+  transform: scale(0.9);
+}
+
+.deals {
+  margin-top: 150px;
+}
+
+.titleP {
+  max-width: 600px;
+}
+
+.elements {
+  margin-top: 100px;
+}
+
+.itemP {
+  max-width: 300px;
+}
+
+.itemProduct {
+  border-radius: 8px;
+  background-color: #ffd7c4;
+  margin-bottom: 35px;
+  height: 100px;
+  width: 400px;
+  transition: all 0.3s;
+}
+
+.productIcon {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  padding: 10px;
+  color: #db3f23;
+}
+
+.content {
+  border-left: 1px solid #e5a890;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
+.itemProduct:hover {
+  background-color: #ffbba0;
+}
+
+.contentP {
+  font-weight: bold;
+}
+
+.contentSpan {
+  font-size: 16px;
+  color: #334155;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.discount {
+  background-color: #760e05;
+  padding: 70px 0;
+}
+
+.card {
+  background-color: #851e14;
+  padding: 80px;
+  border-radius: 18px;
+  width: 85%;
+}
+
+.img {
+  border-radius: 9px;
+}
+
+.contenth3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.contentp {
+  color: #d1d5db;
+  font-size: 18px;
+  width: 85%;
+}
+
+.contentParagraph {
+  font-size: 18px;
+  color: #fff;
+}
+
+.buttonExplore {
+  color: #ff7c57 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.iconExplore {
+  margin-left: 4px;
+  transition: all 0.3s;
+}
+
+.buttonExplore:hover .iconExplore {
+  transform: translateX(4px);
+}
+
+.customers {
+  background-color: #fff0e8;
+  padding: 65px 0;
+}
+
+.imageCustomer {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(227, 74, 27, 0.5),
+    rgba(255, 87, 34, 0) 60%
+  );
+  border-radius: 15px;
+}
+
+.imageCustomer:hover .photo {
+  transform: scale(1.1);
+}
+
+.imageCustomer:hover .layer {
+  transform: scale(1.1);
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 1;
+  width: 85%;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.jobTitle {
+  font-size: 14px;
+  margin: 0;
+}
+
+.i {
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.i:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.titleh2 {
+  color: #0f172a;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.titleParagraph {
+  color: #475569;
+  max-width: 650px;
+}
+
+.seeDiv {
+  color: rgb(250, 84, 38) !important;
+  font-weight: 700 !important;
+}
+
+.seeIcon {
+  margin-left: 4px;
+  transition: all 0.3s;
+}
+
+.seeDiv:hover {
+  color: rgb(255, 124, 87) !important;
+}
+
+.seeDiv:hover .seeIcon {
+  transform: translateX(4px);
+  color: rgb(255, 124, 87) !important;
+}
+
+.connectH {
+  color: #1e293b !important;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.connectP {
+  color: #334155 !important;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.connectI {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.connectTextH {
+  color: #0f172a !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.connectTextP {
+  color: #475569 !important;
+  font-size: 14px;
+}
+
+.connectTextI {
+  color: #ff7c57 !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+
+.connectTextIcon {
+  margin-left: 4px;
+  transition: all 0.3s;
+}
+
+.connectTextI:hover .connectTextIcon {
+  transform: translateX(4px);
+}
+
+.resItem {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .contentHeader {
+    width: 80% !important;
+  }
+  .contentImages {
+    width: 100%;
+  }
+  .resItem {
+    width: 100% !important;
+  }
+}
+
+.contentHeader {
+  width: 50%;
+}
+
+.contentImages {
+  width: 50%;
+}

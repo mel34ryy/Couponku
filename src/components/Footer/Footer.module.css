@@ -1,0 +1,15 @@
+.footer {
+  background-color: #fff0e8;
+  position: relative;
+  bottom: -50px;
+}
+
+.icon {
+  transition: all 0.3s;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff7c57;
+}

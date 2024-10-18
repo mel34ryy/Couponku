@@ -1,0 +1,59 @@
+.btn {
+  border-radius: 18px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.sign:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.sign:hover .icon {
+  transform: translateX(4px);
+}
+
+.icon {
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.login {
+  background-color: #ff5733 !important;
+}
+
+.login:hover {
+  background-color: #db3f23 !important;
+}
+
+.login:hover .icon {
+  transform: translateX(4px);
+}
+
+.navLink {
+  position: relative;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2.5px;
+  background-color: #ff5733;
+  transition: all 0.5s;
+}
+
+.navLink:hover::after {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .navLink {
+    text-align: center;
+  }
+  .navLink:hover::after {
+    width: 8%;
+  }
+}
