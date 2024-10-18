@@ -50,17 +50,18 @@ function Navbar() {
             <div className="text-center">
               <a
                 className={`btn me-3 sign ${styles.btn} ${styles.sign}`}
-                href=""
+                href="register"
               >
                 Sign up
                 <i className={`fa-solid fa-arrow-right ${styles.icon}`}></i>
               </a>
               <a
                 className={`btn me-3 login ${styles.btn} ${styles.login}`}
-                href=""
+                href="login"
               >
                 Login
                 <i className={`fa-solid fa-arrow-right ${styles.icon}`}></i>
+                
               </a>
             </div>
           </div>
