@@ -1,0 +1,30 @@
+.btn2,
+.btn2:hover {
+  background-color: #ff5733;
+}
+.cardDetails {
+  background-color: #fff0e8;
+  border-radius: 0px 15px 15px 0px;
+}
+.imgContainer {
+  background-color: #d5d2d2 !important;
+  border-radius: 15px 0 0 15px;
+}
+@media screen and (max-width: 768px) {
+  .cardDetails {
+    border-radius: 0;
+  }
+  .imgContainer {
+    border-radius: 15px 15px 0 0;
+  }
+}
+.cardDetails h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: brown;
+  font-family: Roboto;
+}
+.cardDetails p:nth-child(3) {
+  color: brown;
+  font-weight: bold;
+}

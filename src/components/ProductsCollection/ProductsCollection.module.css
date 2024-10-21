@@ -1,0 +1,53 @@
+.list {
+  text-decoration: none;
+}
+.addBtn,
+.addBtn:hover {
+  background-color: #ff5733;
+  color: white;
+}
+.smallContainer {
+  color: #ff5733;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.product {
+  background-color: #fff0e8;
+  margin: 20px;
+  width: 20%;
+  border-radius: 10px;
+}
+.list img {
+  width: 90%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.list span:nth-child(2) {
+  color: brown;
+  font-weight: bold;
+}
+.list span:nth-child(3) {
+  color: #9b9999;
+}
+@media screen and (max-width: 576px) {
+  .product {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 772px) {
+  .product {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 773px) and (max-width: 1024px) {
+  .product {
+    width: 30%;
+    margin: 10px !important;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .product {
+    width: 22%;
+  }
+}

@@ -4,7 +4,7 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary w-100">
         <div className="container">
           <a className="navbar-brand" href="">
             <img src={logo} alt="logo" width={30} />
@@ -33,7 +33,7 @@ function Navbar() {
               </li>
               <li className="nav-item me-2">
                 <a className={`nav-link ${styles.navLink}`} href="/products">
-                  Products
+                  Overview
                 </a>
               </li>
               <li className="nav-item me-2">
@@ -43,7 +43,15 @@ function Navbar() {
               </li>
               <li className="nav-item me-2">
                 <a className={`nav-link ${styles.navLink}`} href="/profile">
-                  Profile
+                  Cart
+                </a>
+              </li>
+              <li className="nav-item me-2">
+                <a
+                  className={`nav-link ${styles.navLink}`}
+                  href="/productsCollection"
+                >
+                  Products
                 </a>
               </li>
             </ul>
@@ -56,12 +64,11 @@ function Navbar() {
                 <i className={`fa-solid fa-arrow-right ${styles.icon}`}></i>
               </a>
               <a
-                className={`btn me-3 login ${styles.btn} ${styles.login}`}
+                className={`btn me-3 login text-light ${styles.btn} ${styles.login}`}
                 href="login"
               >
                 Login
                 <i className={`fa-solid fa-arrow-right ${styles.icon}`}></i>
-                
               </a>
             </div>
           </div>

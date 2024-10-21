@@ -3,7 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import $ from "jquery";
-
 window.jQuery = $;
 window.$ = $;
 import land1 from "../../assets/Images/land1.jpeg";
@@ -38,9 +37,9 @@ function Home() {
 
   return (
     <>
-      <div className="container landing my-5 d-flex flex-wrap">
+      <div className=" container landing my-5 d-flex flex-wrap mx-auto ps-3">
         <div className={`content ${styles.contentHeader}`}>
-          <h1 className={`${styles.header} mb-5`}>
+          <h1 className={`${styles.header} mb-5 `}>
             Discover Unbeatable Deals at CouponKu
           </h1>
           <p className={styles.paragraph}>
@@ -48,7 +47,7 @@ function Home() {
             CouponKu brings you the best prices on a wide range of products,
             ensuring a delightful shopping experience.
           </p>
-          <ul className="list-unstyled d-flex justify-content-between my-5 w-75">
+          <ul className="list-unstyled d-flex flex-wrap justify-content-between my-5 w-75">
             <li className="d-flex align-items-center justify">
               <i className={`fa-solid fa-tags me-3 mb-3 ${styles.icons}`}></i>
               <p className={`${styles.liP}`}>Exclusive Discounts</p>
@@ -93,6 +92,7 @@ function Home() {
           </OwlCarousel>
         </div>
       </div>
+
       <div className={`container deals ${styles.deals} mb-5`}>
         <div className="title text-center">
           <h2>Deals Tailored Just for You</h2>
@@ -104,7 +104,7 @@ function Home() {
         <div className={`elements ${styles.elements} text-center`}>
           <div className="row">
             <div className="col-md-4 mb-4">
-              <div className="item">
+              <div className={`${styles.item}`}>
                 <i className="fa-solid fa-gift mb-4 h4"></i>
                 <h4 className="mb-4">Exclusive Offers</h4>
                 <p className={`${styles.itemP} m-auto`}>
@@ -114,7 +114,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="item">
+              <div className={`${styles.item}`}>
                 <i className="fa-solid fa-calendar-day mb-4 h4"></i>
                 <h4 className="mb-4">Daily Discounts</h4>
                 <p className={`${styles.itemP} m-auto`}>
@@ -124,7 +124,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="item">
+              <div className={`${styles.item}`}>
                 <i className="fa-solid fa-heart mb-4 h4"></i>
                 <h4 className="mb-4">Customer Favorites</h4>
                 <p className={`${styles.itemP} m-auto`}>
@@ -136,110 +136,97 @@ function Home() {
           </div>
         </div>
       </div>
+
       <div className="container product mb-5">
         <div className="title text-center mb-5">
           <h2>Explore Our Product Categories</h2>
         </div>
         <div className="elements">
-          <div className="row">
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-tv d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Electronics</p>
-                  <span className={`${styles.contentSpan}`}>1500</span>
-                </div>
+          <div
+            className={`${styles.cards_container} col-12 d-flex flex-wrap mx-auto gap-1 gap-lg-1 justify-content-center`}
+          >
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-tv col-3 m-auto"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Electronics</h5>
+                <p>1500</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-shirt d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Fashion</p>
-                  <span className={`${styles.contentSpan}`}>1200</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-shirt my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Fashion</h5>
+                <p>980</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-couch d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Home & Kitchen</p>
-                  <span className={`${styles.contentSpan}`}>800</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-couch my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Home & Kitchen</h5>
+                <p>640</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-heart-pulse d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Beauty & Health</p>
-                  <span className={`${styles.contentSpan}`}>600</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-heart my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Beauty & Health</h5>
+                <p>750</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-gamepad d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Toys & Games</p>
-                  <span className={`${styles.contentSpan}`}>400</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-football my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Sports & Outdoor</h5>
+                <p>340</p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div
-                className={`item d-flex ${styles.itemProduct} align-items-center`}
-              >
-                <i
-                  className={`fa-solid fa-football d-flex align-items-center ${styles.productIcon}`}
-                ></i>
-                <div className={`content ${styles.content}`}>
-                  <p className={`${styles.contentP}`}>Sports & Outdoors</p>
-                  <span className={`${styles.contentSpan}`}>500</span>
-                </div>
+
+            <div
+              className={`${styles.cat_card} col-10 col-sm-5 col-lg-3 rounded-3 p-3 px-6 m-4 d-flex`}
+            >
+              <i className="fa-solid fa-gamepad my-auto col-3"></i>
+              <div className="details col-9 ps-2 pt-3">
+                <h5>Toys & Games</h5>
+                <p>450</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={`container-fluid ${styles.discount}`}>
-        <div className={`${styles.card} d-flex m-auto`}>
-          <div className={`img ${styles.w40}`}>
+
+      <div className={` ${styles.discount}`}>
+        <div className={`${styles.card} d-flex m-auto flex-wrap`}>
+          <div className={`img ${styles.w40} col-12 col-md-5 mx-auto mb-3`}>
             <img
-              className={`img-fluid w-75 ${styles.img}`}
+              className={`img-fluid col-12 ${styles.img}`}
               src={discount}
               alt="discount"
             />
           </div>
-          <div className={`content ${styles.w60}`}>
+          <div
+            className={`content ${styles.w60} col-12 mx-auto col-md-5 text-center`}
+          >
             <h3 className={`${styles.contenth3} mb-4`}>Start Saving Today</h3>
-            <p className={`${styles.contentp} mb-5`}>
+            <p className={`${styles.contentp} mb-5 mx-auto`}>
               Join thousands of savvy shoppers at CouponKu and enjoy the thrill
               of finding the best deals online.
             </p>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-5 col-10">
                 <div className="item d-flex align-items-center">
                   <i className="fa-solid fa-dollar-sign mb-3 me-2 text-white"></i>
                   <p className={`${styles.contentParagraph}`}>
@@ -247,7 +234,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-5 col-10">
                 <div className="item d-flex align-items-center">
                   <i className="fa-solid fa-box-open mb-3 me-2 text-white"></i>
                   <p className={`${styles.contentParagraph}`}>
@@ -255,7 +242,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-5 col-10">
                 <div className="item d-flex align-items-center">
                   <i className="fa-solid fa-cart-shopping mb-3 me-2 text-white"></i>
                   <p className={`${styles.contentParagraph}`}>
@@ -263,7 +250,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-5 col-10">
                 <div className="item d-flex align-items-center">
                   <i className="fa-solid fa-lock mb-3 me-2 text-white"></i>
                   <p className={`${styles.contentParagraph}`}>
@@ -281,6 +268,7 @@ function Home() {
           </div>
         </div>
       </div>
+
       <div className={`container-fluid ${styles.customers}`}>
         <div className="title text-center mb-4">
           <h2 className={`${styles.titleh2} mb-4`}>Loved by Our Customers</h2>
@@ -361,6 +349,7 @@ function Home() {
           <i className={`fa-solid fa-arrow-right ${styles.seeIcon}`}></i>
         </button>
       </div>
+
       <div className="container connect pt-5">
         <div className="title text-center mb-4">
           <h2 className={`mb-4 ${styles.connectH}`}>Connect with Us</h2>
