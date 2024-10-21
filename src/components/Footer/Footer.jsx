@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div className={`footer ${styles.footer} py-3`}>
         <div className="container d-flex flex-column flex-md-row justify-content-between my-5">
-          <ul className="list-unstyled d-flex justify-content-center">
+          <ul className="list-unstyled d-flex flex-wrap justify-content-center">
             <li className="me-4">
               <a href="" className="text-decoration-none text-black">
                 About CouponKu
@@ -42,7 +42,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="copyright d-flex justify-content-center mb-5">
+        <div className="copyright d-flex justify-content-center mb-5 text-center">
           <p>&copy; CouponKu 2024, Bringing Joy to Your Shopping Experience</p>
         </div>
       </div>

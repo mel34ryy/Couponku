@@ -1,7 +1,11 @@
 .header {
   font-size: 60px;
 }
-
+@media screen and (max-width: 576px) {
+  .header {
+    font-size: 45px;
+  }
+}
 .paragraph {
   color: #475569;
   font-size: 18px;
@@ -85,6 +89,9 @@
 
 .elements {
   margin-top: 100px;
+}
+.item i {
+  color: #db3f23;
 }
 
 .itemP {
@@ -252,11 +259,18 @@
 .i:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
+._content_1xwsb_1 {
+  padding: 0;
+}
 .titleh2 {
   color: #0f172a;
   font-size: 48px;
   font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  .titleh2 {
+    font-size: 30px;
+  }
 }
 
 .titleParagraph {

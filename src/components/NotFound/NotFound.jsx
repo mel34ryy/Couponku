@@ -8,7 +8,7 @@ function NotFound() {
       <div
         className={`d-flex justify-content-center align-items-center flex-column h-100vh py-5`}
       >
-        <img className="mb-4" src={notfound} alt="notfound" />
+        <img className="mb-4 col-8" src={notfound} alt="notfound" />
         <Link to="/" className={`${styles.button}`}>
           Go Back Home
         </Link>
